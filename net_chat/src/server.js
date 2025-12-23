@@ -1,5 +1,4 @@
 require("dotenv").config();
-const { log } = require("console");
 const net = require("net");
 
 const PORT = process.env.PORT;
