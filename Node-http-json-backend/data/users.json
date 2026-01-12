@@ -1,1 +1,29 @@
-[]
+[
+    {
+        "id": 0,
+        "name": "James",
+        "email": "James.example@gmail.com",
+        "role": "admin",
+        "createdAt": "Thu Jan 01 2026 17:53:53 GMT+0400 (Armenia Standard Time)",
+        "updatedAt": "Thu Jan 01 2026 17:53:53 GMT+0400 (Armenia Standard Time)",
+        "isDeleted": true
+    },
+    {
+        "id": 1,
+        "name": "James",
+        "email": "James.example@gmail.com",
+        "role": "admin",
+        "createdAt": "Thu Jan 01 2026 17:58:24 GMT+0400 (Armenia Standard Time)",
+        "updatedAt": "Thu Jan 01 2026 17:58:24 GMT+0400 (Armenia Standard Time)",
+        "isDeleted": true
+    },
+    {
+        "id": 2,
+        "name": "James",
+        "email": "James.example@gmail.com",
+        "role": "admin",
+        "createdAt": "Thu Jan 01 2026 17:59:06 GMT+0400 (Armenia Standard Time)",
+        "updatedAt": "Thu Jan 01 2026 17:59:06 GMT+0400 (Armenia Standard Time)",
+        "isDeleted": false
+    }
+]

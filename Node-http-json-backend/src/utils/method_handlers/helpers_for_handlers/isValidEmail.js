@@ -3,7 +3,7 @@ const METHODS = require("../../../constants/methods");
 const isValidEmail = (email, data, id, method) => {
     if (method === METHODS.POST) {
         for (const dataItem of data) {
-            if (email === dataItem.email) return false;
+            if (!dataItem.isDeleted && email === dataItem.email) return false;
         }
 
         return true;
