@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="./css/login.css" />
+    </head>
+    <body>
+        <main class="page">
+            <section class="card">
+                <header class="card__header">
+                    <h1 class="title">Welcome back</h1>
+                    <p class="subtitle">Login using your email and password.</p>
+                </header>
+
+                <form class="form" method="POST" action="/api/login" novalidate>
+                    <div class="field">
+                        <label class="label" for="email">Email *</label>
+                        <input
+                            class="input"
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="kyle@example.com"
+                            required
+                            autocomplete="email"
+                        />
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="password">Password *</label>
+                        <input
+                            class="input"
+                            id="password"
+                            name="password"
+                            type="password"
+                            placeholder="Your password"
+                            minlength="6"
+                            required
+                            autocomplete="current-password"
+                        />
+                        <div class="row row--tight">
+                            <label class="checkbox">
+                                <input id="showPassword" type="checkbox" />
+                                <span>Show password</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button class="btn" type="submit">Login</button>
+                        <button class="btn btn--ghost" type="reset">Reset</button>
+                    </div>
+
+                    <footer class="footer">
+                        <p class="footer__text">
+                            Don’t have an account?
+                            <a class="link" href="./register.html">Register</a>
+                        </p>
+                    </footer>
+                </form>
+            </section>
+        </main>
+
+        <script>
+            (function () {
+                const checkbox = document.getElementById("showPassword");
+                const password = document.getElementById("password");
+                if (!checkbox || !password) return;
+
+                checkbox.addEventListener("change", () => {
+                    password.type = checkbox.checked ? "text" : "password";
+                });
+            })();
+        </script>
+    </body>
+</html>

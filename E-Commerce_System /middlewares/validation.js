@@ -1,4 +1,3 @@
-const { application } = require("express");
 const HTTP_STATUS = require("../constants/httpStatus");
 const MSG = require("../constants/responseMessages");
 const AppError = require("../utils/appError");
