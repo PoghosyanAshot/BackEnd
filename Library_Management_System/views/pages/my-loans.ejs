@@ -1,0 +1,36 @@
+<%- include("../partials/header") %>
+<%- include("../partials/nav") %>
+
+<div class="container">
+  <h1 class="page-title">My Loans</h1>
+
+  <% if (loans.length === 0) { %>
+    <p class="empty">You have not borrowed any books.</p>
+  <% } %>
+
+  <% loans.forEach(l => { %>
+    <div class="card">
+      <div class="card-content">
+        <h3><%= l.book.title %></h3>
+        <p>Author: <%= l.book.author %></p>
+        <p>Borrowed at: <%= new Date(l.borrowedAt).toLocaleString() %></p>
+
+        <% if (!l.returnedAt) { %>
+          <!-- ACTIVE LOAN -->
+          <p class="status active">Status: Active</p>
+
+          <form method="POST" action="/books/<%= l.book.id %>/return">
+            <button class="btn">Return</button>
+          </form>
+        <% } else { %>
+          <!-- HISTORY -->
+          <p class="status returned">
+            Returned at: <%= new Date(l.returnedAt).toLocaleString() %>
+          </p>
+        <% } %>
+      </div>
+    </div>
+  <% }) %>
+</div>
+
+<%- include("../partials/footer") %>

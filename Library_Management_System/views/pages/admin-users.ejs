@@ -1,0 +1,21 @@
+<%- include('../partials/header') %>
+<%- include('../partials/nav') %>
+
+<div class="container">
+  <h2>Users</h2>
+
+  <% users.forEach(u => { %>
+    <div class="card">
+      <p><b><%= u.name %></b> — <%= u.email %></p>
+      <p>Role: <%= u.role %></p>
+
+      <% if (u.role === 'member') { %>
+        <form method="POST" action="/admin/users/<%= u.id %>/make-admin">
+          <button>Make Admin</button>
+        </form>
+      <% } %>
+    </div>
+  <% }) %>
+</div>
+
+<%- include('../partials/footer') %>

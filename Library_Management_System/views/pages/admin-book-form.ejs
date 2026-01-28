@@ -1,0 +1,11 @@
+<%- include('../partials/header') %>
+<%- include('../partials/nav') %>
+
+<form method="POST" action="<%= book ? '/admin/books/' + book.id : '/admin/books' %>">
+  <input name="title" value="<%= book?.title || '' %>" placeholder="Title" />
+  <input name="author" value="<%= book?.author || '' %>" placeholder="Author" />
+  <input name="year" value="<%= book?.year || '' %>" placeholder="Year" />
+  <button>Save</button>
+</form>
+
+<%- include('../partials/footer') %>

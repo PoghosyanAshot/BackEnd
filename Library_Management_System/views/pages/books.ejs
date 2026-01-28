@@ -1,0 +1,27 @@
+<%- include('../partials/header') %>
+<%- include('../partials/nav') %>
+
+<div class="container">
+  <h2>Books</h2>
+
+  <% if (currentUser.role === 'admin') { %>
+    <a href="/admin/books/new">➕ Add Book</a>
+  <% } %>
+
+  <% books.forEach(b => { %>
+    <div class="card">
+      <h3><a href="/books/<%= b.id %>"><%= b.title %></a></h3>
+      <p><%= b.author %> (<%= b.year %>)</p>
+      <p>Status: <%= b.available ? "Available" : "Borrowed" %></p>
+
+      <% if (currentUser.role === 'admin') { %>
+        <a href="/admin/books/<%= b.id %>/edit">Edit</a>
+        <form method="POST" action="/admin/books/<%= b.id %>/delete">
+          <button>Delete</button>
+        </form>
+      <% } %>
+    </div>
+  <% }) %>
+</div>
+
+<%- include('../partials/footer') %>

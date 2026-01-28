@@ -1,0 +1,15 @@
+<nav class="navbar">
+  <a href="/books">📚 Library</a>
+
+  <% if (!currentUser) { %>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+  <% } else { %>
+    <a href="/me/loans">My Loans</a>
+    <a href="/logout">Logout</a>
+
+    <% if (currentUser.role === 'admin') { %>
+      <a href="/admin">Admin</a>
+    <% } %>
+  <% } %>
+</nav>

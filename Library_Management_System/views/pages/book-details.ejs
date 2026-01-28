@@ -1,0 +1,21 @@
+<%- include('../partials/header') %>
+<%- include('../partials/nav') %>
+
+<div class="container">
+  <h2><%= book.title %></h2>
+  <p><%= book.author %> — <%= book.year %></p>
+
+  <% if (book.available) { %>
+    <form method="POST" action="/books/<%= book.id %>/borrow">
+      <button>Borrow</button>
+    </form>
+  <% } else if (loan && loan.userId === currentUser.id) { %>
+    <form method="POST" action="/books/<%= book.id %>/return">
+      <button>Return</button>
+    </form>
+  <% } else { %>
+    <p>This book is borrowed by another user</p>
+  <% } %>
+</div>
+
+<%- include('../partials/footer') %>
