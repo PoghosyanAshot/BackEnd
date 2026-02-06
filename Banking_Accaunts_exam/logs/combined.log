@@ -1,0 +1,404 @@
+{
+    "timestamp": "2026-02-05 22:48:59",
+    "level": "error",
+    "message": "boom",
+    "stack": "Error: boom\n    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/app.js:12:11\n    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)\n    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:117:3)\n    at handle (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)\n    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:295:15\n    at processParams (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:582:12)\n    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:291:5)\n    at loggerMiddleware (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/middlewares/logger.middleware.js:37:5)"
+}
+{
+    "timestamp": "2026-02-05 22:48:59",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/",
+        "statusCode": 500,
+        "durationMs": 8,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": null
+    }
+}
+{
+    "timestamp": "2026-02-06 09:52:35",
+    "level": "error",
+    "message": "boom",
+    "stack": "Error: boom\n    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/app.js:12:11\n    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)\n    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:117:3)\n    at handle (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)\n    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:295:15\n    at processParams (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:582:12)\n    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:291:5)\n    at loggerMiddleware (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/middlewares/logger.middleware.js:37:5)"
+}
+{
+    "timestamp": "2026-02-06 09:52:35",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/",
+        "statusCode": 500,
+        "durationMs": 8,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": null
+    }
+}
+{
+    "timestamp": "2026-02-06 09:54:53",
+    "level": "error",
+    "message": "boom",
+    "stack": [
+        "Error: boom",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/app.js:12:11",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:157:13)",
+        "    at Route.dispatch (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:117:3)",
+        "    at handle (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:435:11)",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:295:15",
+        "    at processParams (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:582:12)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:291:5)",
+        "    at loggerMiddleware (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/middlewares/logger.middleware.js:37:5)"
+    ]
+}
+{
+    "timestamp": "2026-02-06 09:54:53",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/",
+        "statusCode": 500,
+        "durationMs": 7,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": null
+    }
+}
+{
+    "timestamp": "2026-02-06 10:42:04",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/cusotmers",
+        "statusCode": 404,
+        "durationMs": 4,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "query": {},
+        "body": null
+    }
+}
+{
+    "timestamp": "2026-02-06 10:42:30",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/cusotmers",
+        "statusCode": 404,
+        "durationMs": 5,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "query": {},
+        "body": null
+    }
+}
+{
+    "timestamp": "2026-02-06 10:42:45",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/customers",
+        "statusCode": 200,
+        "durationMs": 18,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": null
+    }
+}
+{
+    "timestamp": "2026-02-06 11:05:23",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "POST",
+        "url": "/customers",
+        "statusCode": 201,
+        "durationMs": 12,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": {
+            "fullName": "Messi",
+            "email": "messi@gmial.com"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:05:44",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/customers/3",
+        "statusCode": 200,
+        "durationMs": 2,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {
+            "id": "3"
+        },
+        "query": {},
+        "body": {
+            "fullName": "Messi",
+            "email": "messi@gmial.com"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:05:55",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/customers/",
+        "statusCode": 200,
+        "durationMs": 1,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": {
+            "fullName": "Messi",
+            "email": "messi@gmial.com"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:12:19",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "POST",
+        "url": "/accounts",
+        "statusCode": 201,
+        "durationMs": 62,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": {
+            "customerId": 1,
+            "currency": "AMD"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:12:34",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/accounts/4",
+        "statusCode": 200,
+        "durationMs": 2,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {
+            "id": "4"
+        },
+        "query": {},
+        "body": {
+            "customerId": 1,
+            "currency": "AMD"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:12:40",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/accounts/",
+        "statusCode": 404,
+        "durationMs": 1,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "query": {},
+        "body": {
+            "customerId": 1,
+            "currency": "AMD"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:13:19",
+    "level": "error",
+    "message": "Invalid customerId",
+    "stack": [
+        "ValidationError: Invalid customerId",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/middlewares/validate.middleware.js:21:25",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:157:13)",
+        "    at Route.dispatch (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:117:3)",
+        "    at handle (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:435:11)",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:295:15",
+        "    at processParams (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:582:12)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:291:5)",
+        "    at Function.handle (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:186:3)"
+    ]
+}
+{
+    "timestamp": "2026-02-06 11:13:19",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "POST",
+        "url": "/accounts/",
+        "statusCode": 400,
+        "durationMs": 1,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": {
+            "customerId": "hello",
+            "currency": "AMD"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:19:27",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/audit-logs",
+        "statusCode": 200,
+        "durationMs": 13,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": {
+            "customerId": "hello",
+            "currency": "AMD"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:33:23",
+    "level": "error",
+    "message": "Cannot read properties of undefined (reading 'fromAccountId')",
+    "stack": [
+        "TypeError: Cannot read properties of undefined (reading 'fromAccountId')",
+        "    at _accountsDifferent (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/validations/transfer.validation.js:12:21)",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/middlewares/validate.middleware.js:13:29",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:157:13)",
+        "    at Route.dispatch (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:117:3)",
+        "    at handle (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:435:11)",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:295:15",
+        "    at processParams (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:582:12)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:291:5)"
+    ]
+}
+{
+    "timestamp": "2026-02-06 11:33:23",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "POST",
+        "url": "/transfers",
+        "statusCode": 500,
+        "durationMs": 8,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": {
+            "fromAccountId": 1,
+            "toAccountId": 2,
+            "amount": 10000,
+            "reference": "tr-001",
+            "note": "Rent"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:36:08",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "POST",
+        "url": "/transfers",
+        "statusCode": 200,
+        "durationMs": 23,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {},
+        "query": {},
+        "body": {
+            "fromAccountId": 1,
+            "toAccountId": 2,
+            "amount": 10000,
+            "reference": "tr-001",
+            "note": "Rent"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:47:36",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/transactions/accounts/1",
+        "statusCode": 404,
+        "durationMs": 3,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "query": {},
+        "body": {
+            "fromAccountId": 1,
+            "toAccountId": 2,
+            "amount": 10000,
+            "reference": "tr-001",
+            "note": "Rent"
+        }
+    }
+}
+{
+    "timestamp": "2026-02-06 11:48:01",
+    "level": "info",
+    "message": {
+        "type": "REQUEST",
+        "method": "GET",
+        "url": "/transactions/accounts/1/transactions",
+        "statusCode": 200,
+        "durationMs": 15,
+        "ip": "127.0.0.1",
+        "userAgent": "PostmanRuntime/7.49.1",
+        "params": {
+            "id": "1"
+        },
+        "query": {},
+        "body": {
+            "fromAccountId": 1,
+            "toAccountId": 2,
+            "amount": 10000,
+            "reference": "tr-001",
+            "note": "Rent"
+        }
+    }
+}

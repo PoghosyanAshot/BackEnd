@@ -1,0 +1,36 @@
+{
+    "timestamp": "2026-02-06 11:13:19",
+    "level": "error",
+    "message": "Invalid customerId",
+    "stack": [
+        "ValidationError: Invalid customerId",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/middlewares/validate.middleware.js:21:25",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:157:13)",
+        "    at Route.dispatch (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:117:3)",
+        "    at handle (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:435:11)",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:295:15",
+        "    at processParams (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:582:12)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:291:5)",
+        "    at Function.handle (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:186:3)"
+    ]
+}
+{
+    "timestamp": "2026-02-06 11:33:23",
+    "level": "error",
+    "message": "Cannot read properties of undefined (reading 'fromAccountId')",
+    "stack": [
+        "TypeError: Cannot read properties of undefined (reading 'fromAccountId')",
+        "    at _accountsDifferent (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/validations/transfer.validation.js:12:21)",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/src/middlewares/validate.middleware.js:13:29",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:157:13)",
+        "    at Route.dispatch (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/route.js:117:3)",
+        "    at handle (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:435:11)",
+        "    at Layer.handleRequest (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/lib/layer.js:152:17)",
+        "    at /home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:295:15",
+        "    at processParams (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:582:12)",
+        "    at next (/home/ashot/Desktop/BackEnd/Banking_Accaunts_exam/node_modules/router/index.js:291:5)"
+    ]
+}

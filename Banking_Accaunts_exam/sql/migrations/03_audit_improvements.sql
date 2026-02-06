@@ -1,0 +1,9 @@
+BEGIN;
+
+ALTER TABLE audit_logs
+ADD COLUMN IF NOT EXISTS actor TEXT DEFAULT 'system';
+
+ALTER TABLE audit_logs
+ADD COLUMN IF NOT EXISTS ip_address TEXT;
+
+COMMIT;

@@ -1,0 +1,22 @@
+{
+  "name": "banking_accaunts_exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "node scripts/bootstrap.js",
+    "start:server": "nodemon server.js",
+    "start": "npm run bootstrap && npm run start:server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "pg": "^8.18.0",
+    "winston": "^3.19.0"
+  }
+}
